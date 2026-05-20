@@ -16,9 +16,9 @@ const Mediapage = () => {
             </h1>
             <div className="flex items-stretch gap-6 pl-6 border-l-[1.5px] border-[#FF6B00]">
               <p className="text-base md:text-lg text-neutral-500 font-semibold leading-relaxed max-w-2xl">
-                Petrocore is an integrated oil & gas service company delivering
-                precision-driven solutions across the complete project
-                lifecycle.
+                Highlighting Petrocore's progress, engineering excellence, and
+                defining moments in delivering safe and efficient energy
+                solutions.
               </p>
             </div>
           </div>
