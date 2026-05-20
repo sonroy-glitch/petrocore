@@ -14,6 +14,10 @@ app.use(express_1.default.json());
 app.use((0, cors_1.default)());
 app.use("/api", contactRoute_1.default);
 app.use("/api", careerRoute_1.default);
-app.listen(3000, () => {
-    console.log("Server running on 3000");
-});
+if (process.env.NODE_ENV !== "production" && !process.env.VERCEL) {
+    const PORT = process.env.PORT || 3000;
+    app.listen(PORT, () => {
+        console.log(`Server running on ${PORT}`);
+    });
+}
+exports.default = app;
