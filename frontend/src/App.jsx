@@ -5,7 +5,7 @@ import Servicepage from "./Pages/Servicepage";
 import Aboutpage from "./Pages/Aboutpage";
 import Contactpage from "./Pages/Contactpage";
 import Careerpage from "./Pages/Careerpage";
-import ScrollToTop from "./components/ScrollToTop";
+// import ScrollToTop from "./Components/ScrollToTop";
 import Mediapage from "./Pages/Mediapage";
 
 const App = () => {
