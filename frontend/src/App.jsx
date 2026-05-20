@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./Pages/Homepage";
 import Servicepage from "./Pages/Servicepage";
 import Aboutpage from "./Pages/Aboutpage";
-import Contactpage from "./Pages/ContactPage";
+import Contactpage from "./Pages/Contactpage";
 import Careerpage from "./Pages/Careerpage";
 import ScrollToTop from "./components/ScrollToTop";
 import Mediapage from "./Pages/Mediapage";
