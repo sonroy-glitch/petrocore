@@ -1,0 +1,1 @@
+{"root":["./src/server.ts","./src/transporter.ts","./src/routes/careerroute.ts","./src/routes/contactroute.ts","./src/config/prisma.ts","./src/config/supabase.ts","./src/validations/contactvalidation.ts"],"version":"5.8.3"}
