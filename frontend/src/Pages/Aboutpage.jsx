@@ -12,8 +12,8 @@ import {
 } from "lucide-react";
 import Navbar from "../Components/Navbar";
 import { useNavigate } from "react-router-dom";
-import hsplImage from "../assets/clients/hspl.webp";
-import gbo from "../assets/clients/gbo.webp";
+import hsplImage from "../assets/Clients/hspl.webp";
+import gbo from "../assets/Clients/gbo.webp";
 
 const AboutPage = () => {
   const navigate = useNavigate();
