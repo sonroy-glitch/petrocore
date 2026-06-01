@@ -314,6 +314,12 @@ const ContactPage = () => {
                     Workforce Solutions
                   </option>
 
+                  <option value="Mud Engineering">Mud Engineering</option>
+
+                  <option value="Drill Equipment Trading">
+                    Drill Equipment Trading
+                  </option>
+
                   <option value="Other">Other</option>
                 </select>
 

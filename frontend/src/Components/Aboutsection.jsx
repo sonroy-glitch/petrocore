@@ -13,14 +13,34 @@ export default function AboutComponent() {
           </p>
         </div>
 
-        <div className="w-full">
-          <p className="text-2xl md:text-2xl text-neutral-700">
-            As an emerging force in the oil & gas sector over the last six
-            months, we are fully committed to establishing a new benchmark for
-            precision engineering, cost-effective solutions, and safety-first
-            operations. Our team focuses on execution excellence, bringing
-            dedicated focus and rigorous standards to every project phase of
-            onshore and offshore operations.
+        <div className="w-full text-xl md:text-2xl text-neutral-700 flex flex-col gap-5">
+          <p>
+            Petrocore Workforce Solutions Private Limited is a specialized oil &
+            gas service company delivering integrated solutions across Project
+            Management Consultancy (PMC), Well Engineering, Execution Support,
+            and Skilled Workforce deployment for Exploration & Production (E&P)
+            projects.
+          </p>
+          <p>
+            We support small to mid-sized operators, joint venture partners, and
+            service companies in planning and executing drilling, field
+            development, and workover campaigns with a strong focus on safety,
+            efficiency, and cost control.
+          </p>
+          <p>
+            Our team combines technical expertise with practical field
+            experience to ensure smooth project execution from concept to
+            completion. Our services cover complete project lifecycle support —
+            including well planning and design, contractor coordination, onsite
+            supervision, cost monitoring, risk management, and regulatory
+            compliance. Through our integrated PMC and manpower model, we
+            provide clients with a single-point, accountable solution that
+            enhances operational performance and minimizes non-productive time.
+          </p>
+          <p>
+            At Petrocore, we are committed to delivering technically sound,
+            commercially efficient, and safety-driven solutions that help
+            clients achieve reliable and sustainable field development outcomes.
           </p>
         </div>
       </div>
