@@ -21,6 +21,12 @@ const InstagramIcon = () => (
   </svg>
 );
 
+const XIcon = () => (
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.674h2.039L6.486 3.24H4.298Z" />
+  </svg>
+);
+
 const PetrocoreFooter = () => {
   const navigate = useNavigate();
 
@@ -122,22 +128,36 @@ const PetrocoreFooter = () => {
             </ul>
             <div className="flex gap-6 pt-4 items-center">
               <a
-                href="#"
-                className="text-zinc-500 hover:text-white transition-all"
+                href="https://www.linkedin.com/in/petrocore-workforce-solutions-231b95410/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-blue-600 hover:bg-white transition-all rounded-md"
               >
                 <LinkedinIcon />
               </a>
               <a
-                href="#"
-                className="text-zinc-500 hover:text-white transition-all"
+                href="https://www.instagram.com/petrocore.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-pink-500 transition-all"
               >
                 <InstagramIcon />
               </a>
               <a
-                href="#"
-                className="text-zinc-500 hover:text-white transition-all"
+                href="https://www.facebook.com/people/Petrocore-Workforce/61590001240933/?rdid=yDbGYjdQZfGvxoww&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1YaE1voT5R%2F"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:bg-blue-500 transition-all p-1 rounded-sm"
               >
                 <FacebookIcon />
+              </a>
+              <a
+                href="https://x.com/petrocore26"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-gray-400 transition-all p-1 rounded-sm"
+              >
+                <XIcon />
               </a>
             </div>
           </div>

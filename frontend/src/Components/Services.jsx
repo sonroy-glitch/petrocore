@@ -3,8 +3,8 @@ import img1 from "../assets/Homepageservice/PMC.webp";
 import img2 from "../assets/Homepageservice/WellEngg.webp";
 import img3 from "../assets/Homepageservice/Support.webp";
 import img4 from "../assets/Servicepage/workforce.webp";
-import img5 from "../assets/Servicepage/mud.webp";
-import img6 from "../assets/Servicepage/drill.webp";
+import img5 from "../assets/Servicepage/mudCollage.webp";
+import img6 from "../assets/Servicepage/drillCollage.webp";
 
 const Services = () => {
   return (

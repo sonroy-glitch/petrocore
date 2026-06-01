@@ -4,8 +4,8 @@ import img1 from "../assets/Servicepage/pmc.webp";
 import img2 from "../assets/Servicepage/well.webp";
 import img3 from "../assets/Servicepage/execsup.webp";
 import img4 from "../assets/Servicepage/workforce.webp";
-import img5 from "../assets/Servicepage/mud.webp";
-import img6 from "../assets/Servicepage/drill.webp";
+import img5 from "../assets/Servicepage/mudCollage.webp";
+import img6 from "../assets/Servicepage/drillCollage.webp";
 import PetrocoreFooter from "../Components/PetrocoreFooter";
 import Navbar from "../Components/Navbar";
 import { useNavigate } from "react-router-dom";
@@ -64,7 +64,6 @@ const Servicepage = () => {
     {
       title: "Mud Engineering",
       image: img5,
-
       features: [
         "Drilling fluid design & optimization",
         "Mud property monitoring & control",
@@ -110,7 +109,12 @@ const Servicepage = () => {
                 <img
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-full object-cover"
+                  className={`w-full h-full ${
+                    service.title === "Mud Engineering" ||
+                    "Drilling Equipment Trading"
+                      ? "object-fit"
+                      : "object-cover"
+                  }`}
                 />
               </div>
 

@@ -14,6 +14,7 @@ import Navbar from "../Components/Navbar";
 import { useNavigate } from "react-router-dom";
 import hsplImage from "../assets/Clients/hspl.webp";
 import gbo from "../assets/Clients/gbo.webp";
+import beyond from "../assets/Beyond1.webp";
 
 const AboutPage = () => {
   const navigate = useNavigate();
@@ -169,25 +170,12 @@ const AboutPage = () => {
               </div>
             ))}
 
-            <div className="bg-[#FF6B00] border-[3px] border-black p-4 flex flex-col justify-center shadow-[10px_10px_0px_#1a1a1a] relative h-full min-h-[250px] overflow-hidden">
-              <div className="absolute top-4 right-4 flex gap-2">
-                <div className="w-4 h-4 bg-black rounded-full" />
-                <div className="w-4 h-4 bg-black" />
-                <div className="w-4 h-4 bg-black rotate-45" />
-              </div>
-
-              <div className="absolute -bottom-12 -left-6 text-[150px] font-black text-black/10 leading-none select-none pointer-events-none">
-                *
-              </div>
-
-              <div className="relative z-10 flex flex-col items-center text-center mt-4">
-                <span className="block text-4xl lg:text-5xl font-black tracking-tighter text-black uppercase italic leading-[0.85] break-words">
-                  AND
-                  <br />
-                  BEYOND.
-                </span>
-                <div className="w-12 h-2 bg-black mt-4" />
-              </div>
+            <div className="border-[3px] border-black shadow-[10px_10px_0px_#1a1a1a] relative h-full min-h-[250px] overflow-hidden bg-orange-500">
+              <img
+                src={beyond}
+                alt="Beyond"
+                className="w-full h-full object-contain absolute inset-0"
+              />
             </div>
           </div>
         </section>
